@@ -1,0 +1,35 @@
+.Block3 {
+  width: 100%;
+  padding: 111px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background: url("../../assets/Group\ 36.png") no-repeat;
+  background-position: left;
+
+  .titleTxt {
+    max-width: 800px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+
+    h1 {
+      color: #fff;
+      font-family: Kanit;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 90px;
+    }
+
+    p {
+      color: #fff;
+      font-family: Montserrat;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+}
